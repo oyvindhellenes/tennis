@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="green-bg">
+  <div id="app" class="yellow-bg">
     <img src="./assets/header.png" id="header-img">
     <router-view></router-view>
   </div>
@@ -68,6 +68,6 @@ body {
 #header-img {
   width: 100%;
   margin-bottom: 30px;
-  box-shadow: 0px 15px 30px #000000;
+  /*box-shadow: 0px 15px 30px #000000;*/
 }
 </style>
