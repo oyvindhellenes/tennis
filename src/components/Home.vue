@@ -1,21 +1,12 @@
 <template>
   <div>
-    <nav class=container>
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Om oss</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active bold" href="#">Heim</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Meir info</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="home container grellow-bg">
+      <h1 class="beige bold" id="title">Bli med og støtt Noregs første folkefinansierte tennisbane i Førde!</h1>
+      <img src="../assets/banner-slim.png" id="banner">
+      <h4 class="beige p">Vi i Førde Tennisklubb har jobba i over seks år for å kunne bygge ei flunkande ny tennisbane i Førde.
+        No treng vi berre 100 000 kroner for å sette i gong med bygginga.
+        Så bli med og støtt Noregs første folkefinansierte tennisbane!</h4>
       <img src="../assets/tennisball.png" id="tennisball">
-      <h1 class="beige">Bli med og støtt Noregs første folkefinansierte idrettsanlegg!</h1>
+      <h4 class="beige p">Så langt har vi samla inn 31200 på berre 5 dagar:</h4>
       <div class="progress beige-bg">
         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
           <p class="lead bold green">
@@ -23,96 +14,74 @@
           </p>
         </div>
       </div>
-      <div>
-        <button type="button" class="btn btn-primary btn-lg beige green-bg bold">
-          BLI MED!
-        </button>
+
+      <div class="small-container beige-bg">
+        <h3 class="bold blue">
+          Støtt oss med vipps eller nettbank
+        </h3>
+        <img src="../assets/vipps_logo.png" id="vipps1">
+        <h4 class="blue p">
+          Vil du være med å folkefinansiere Tennisbane i Førde så kan du sende ønskeleg beløp på Vipps eller Nettbank.
+        </h4>
+        <h2 class="blue bold">Vipps nummer: 17722</h2>
+        <h2 class="blue bold">Kontonummer: 15037510944</h2>
+        <h4 class="blue p">PS: Hugs å merk donasjonen med navn slik at vi enkelt kan ta kontakt dersom det blir nødvendig. Dersom prosjektet skulle skjære seg eller prosjektet ikkje er påbegynt innan to år så vil du bli refundert fullt beløp.</h4>
+        <div><img src="../assets/vipps1.jpg" id="vipps1"></div>
       </div>
       <img src="../assets/spacer.png" id="spacer">
-
-
-    </div>
   </div>
 </template>
 
 <script>
+let product = {
+  name: 'Moby Dick',
+  description: 'I love whales',
+  amount: 100000 // 100$ in cents
+}
 export default {
-  name: 'hello',
+  name: 'app',
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+    return product
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 0 10px;
-}
-
-nav {
-    margin-top: 100px;
+#banner {
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #fef1cf;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 #tennisball {
+  width: 200px;
+  margin: auto;
+  padding: 30px;
+}
+
+#vipps1 {
   width: 300px;
   margin: auto;
-  padding: 50px;
+  margin-bottom: 30px;
+  padding: 0px;
+  border-radius: 10px;
 }
 
-.nav-link {
-  height: 100px;
+#title {
   position: relative;
-  top: 5px;
-  background-color: #ebc733;
-  border-style: none none solid none;
-  border-color: black;
-  border-width: 5px;
+  padding: 20px;
+  text-shadow: 2px 2px 0px black;
+
 }
 
-.nav-item a{
-  color: black;
-  font-size: 30px;
-  padding-top: 25px;
-}
-
-.nav-item {
-  margin: 0px 10px 0px 10px;
-  width: 100%;
-}
-
-.nav-link:hover {
-  border-style: solid solid none solid;
-  border-color: black;
-  border-width: 5px;
-}
-
-.nav-link.active {
-  background-color: #fef1cf;
-  border-style: solid solid none solid;
-  border-color: black;
-  border-width: 5px;
-  position: relative;
-  top: 5px
-}
-
-.nav-tabs {
-  border-bottom: 5px solid black;
-}
-
-.nav-tabs .nav-link.active {
-  color: black;
+.small-container {
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .progress-bar-animated {
@@ -132,11 +101,5 @@ nav {
   height: 80px;
 }
 
-.home {
-  border-width: 13px;
-  border-style: solid;
-  border-color:  #fef1cf;
-  padding: 50px;
-}
 
 </style>
