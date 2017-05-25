@@ -3,14 +3,14 @@
     <img src="./assets/header2.png" id="header-img">
     <nav class=container id="navigation">
       <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <router-link to="/Om" class="nav-link">Om oss</router-link>
+        <li class="nav-item" v-on:click="setActive">
+          <router-link to="/om" id="om" class="nav-link">Om oss</router-link>
+        </li>
+        <li class="nav-item" v-on:click="setActive">
+          <router-link to="/heim" id="heim" class="nav-link">Heim</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/" class="nav-link">Heim</router-link>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Meir info</a>
+          <a class="nav-link" id="info" href="#">Meir info</a>
         </li>
       </ul>
     </nav>
@@ -22,11 +22,21 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  mounted: function() {
+    this.setActive()
+  },
+  methods: {
+    setActive: function() {
+      console.log('hei')
+      let path = window.location.pathname.split( '/' )[1];
+      setTimeout(() => {
+        let item = document.getElementById(path);
+        item.className += " active bold";
+      }, 50);
+    }
+  }
 }
-
-let path = window.location.pathname;
-console.log(path)
 
 </script>
 
