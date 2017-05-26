@@ -1,12 +1,13 @@
 <template>
   <div>
       <h1 class="beige bold" id="title">Bli med og støtt Noregs første folkefinansierte tennisbane i Førde!</h1>
-      <img src="../assets/banner-slim.png" id="banner">
+      <img src="../assets/banner-yellow.png" id="banner">
       <h4 class="beige p">Vi i Førde Tennisklubb har jobba i over seks år for å kunne bygge ei flunkande ny tennisbane i Førde.
         No treng vi berre 100 000 kroner for å sette i gong med bygginga.
         Så bli med og støtt Noregs første folkefinansierte tennisbane!</h4>
       <img src="../assets/tennisball.png" id="tennisball">
       <h4 class="beige p">Så langt har vi samla inn 31200 på berre 5 dagar:</h4>
+      <img src="../assets/racket.png" id="racket">
       <div class="progress beige-bg">
         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
           <p class="lead bold green">
@@ -64,6 +65,12 @@ export default {
   padding: 30px;
 }
 
+#racket {
+  width: 300px;
+  margin: auto;
+  padding: 30px;
+}
+
 #vipps1 {
   width: 300px;
   margin: auto;
@@ -76,6 +83,7 @@ export default {
   position: relative;
   padding: 20px;
   text-shadow: 2px 2px 0px black;
+  font-size: 50px;
 
 }
 

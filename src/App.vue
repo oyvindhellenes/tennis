@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="yellow-bg">
-    <img src="./assets/header2.png" id="header-img">
+    <img src="./assets/header3.png" id="header-img">
     <nav class=container id="navigation">
       <ul class="nav nav-tabs">
         <li class="nav-item" v-on:click="setActive">
@@ -9,8 +9,8 @@
         <li class="nav-item" v-on:click="setActive">
           <router-link to="/heim" id="heim" class="nav-link">Heim</router-link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="info" href="#">Meir info</a>
+        <li class="nav-item" v-on:click="setActive">
+          <router-link to="/info" id="info" class="nav-link">Meir info</router-link>
         </li>
       </ul>
     </nav>
@@ -28,7 +28,6 @@ export default {
   },
   methods: {
     setActive: function() {
-      console.log('hei')
       let path = window.location.pathname.split( '/' )[1];
       setTimeout(() => {
         let item = document.getElementById(path);
@@ -78,7 +77,7 @@ nav {
   border-width: 13px;
   border-style: solid;
   border-color:  #fef1cf;
-  padding: 50px 150px 500px 150px;
+  padding: 15px 150px 500px 150px;
 
 }
 
