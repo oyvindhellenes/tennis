@@ -1,8 +1,10 @@
 <template>
   <div>
-      <h1 class="beige bold" id="title">Om oss</h1>
-
-      <img src="../assets/spacer.png" id="spacer">
+    <h1 class="beige bold" id="title">Om oss</h1>
+    <img src="../assets/spacer.png" id="spacer">
+    <h3 class="beige bold">Kven er vi?</h3>
+    <img src="../assets/spacer.png" id="spacer">
+    <h3 class="beige bold">Kontakt</h3>
   </div>
 </template>
 

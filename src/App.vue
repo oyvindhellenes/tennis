@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="yellow-bg">
-    <img src="./assets/header3.png" id="header-img">
+    <img src="./assets/header.png" id="header-img">
     <nav class=container id="navigation">
       <ul class="nav nav-tabs">
         <li class="nav-item" v-on:click="setActive">
@@ -47,6 +47,16 @@ export default {
   text-align: center;
 }
 
+@media (max-width: 767px) {
+  #navigation .nav-item a{
+    font-size: 24px !important;
+    padding-top: 25px !important;
+  }
+  #header-img {
+    height: 150px !important;
+  }
+}
+
 body {
   margin: 0;
 }
@@ -77,7 +87,7 @@ nav {
   border-width: 13px;
   border-style: solid;
   border-color:  #fef1cf;
-  padding: 15px 150px 500px 150px;
+  padding: 15px 10% 500px 10%;
 
 }
 
@@ -100,6 +110,10 @@ nav {
   color: #017272;
 }
 
+.black {
+  color: black;
+}
+
 .yellow-bg {
   background-color: #ebc733;
 }
@@ -119,12 +133,30 @@ nav {
   font-family: 'Lilita One' !important;
 }
 
+.bold-underscore {
+  font-family: 'Lilita One' !important;
+  text-decoration: underline;
+}
+
 .p {
   font-family: 'Helvetica' !important;
   font-weight: lighter;
   text-align: left;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.p-center {
+  font-family: 'Helvetica' !important;
+  font-weight: lighter;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.padding-top-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #navigation .nav-link {
@@ -172,7 +204,7 @@ nav {
 }
 
 #spacer {
-  height: 20px;
+  height: 15px;
   margin-top: 50px;
   margin-bottom: 50px;
   width: 100%;
@@ -180,5 +212,7 @@ nav {
 
 #header-img {
   width: 100%;
+  height: 300px;
+  box-shadow: 0px 15px 60px 0px black;
 }
 </style>

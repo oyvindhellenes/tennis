@@ -6,30 +6,35 @@
         No treng vi berre 100 000 kroner for å sette i gong med bygginga.
         Så bli med og støtt Noregs første folkefinansierte tennisbane!</h4>
       <img src="../assets/tennisball.png" id="tennisball">
-      <h4 class="beige p">Så langt har vi samla inn 31200 på berre 5 dagar:</h4>
-      <img src="../assets/racket.png" id="racket">
+      <h4 class="beige p bold">Så langt har vi samla inn<span class="bold-underscore"> 31200kr</span> på berre 5 dagar:</h4>
       <div class="progress beige-bg">
         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
-          <p class="lead bold green">
+          <p class="lead bold black">
             31 200kr
           </p>
         </div>
       </div>
-
+      <h4 class="beige p">Kampanjen sluttar om <span class="bold-underscore">29 dagar!</span></h4>
+      <img src="../assets/spacer.png" id="spacer">
       <div class="small-container beige-bg">
-        <h3 class="bold blue">
-          Støtt oss med vipps eller nettbank
-        </h3>
         <img src="../assets/vipps_logo.png" id="vipps1">
-        <h4 class="blue p">
+        <h2 class="bold blue">
+          Støtt oss med vipps eller nettbank
+        </h2>
+        <h4 class="blue p padding-top-bottom">
           Vil du være med å folkefinansiere Tennisbane i Førde så kan du sende ønskeleg beløp på Vipps eller Nettbank.
         </h4>
-        <h2 class="blue bold">Vipps nummer: 17722</h2>
-        <h2 class="blue bold">Kontonummer: 15037510944</h2>
+        <h4 class="blue bold">Vipps nummer:</h4>
+        <h2 class="blue bold borderbox">17722</h2>
+        <div><img src="../assets/vipps1.jpg" id="vipps2"></div>
+        <h4 class="blue p-center padding-top-bottom">(Kontonummer: <span class="bold-underscore"> 15037510944</span>)</h4>
         <h4 class="blue p">PS: Hugs å merk donasjonen med navn slik at vi enkelt kan ta kontakt dersom det blir nødvendig. Dersom prosjektet skulle skjære seg eller prosjektet ikkje er påbegynt innan to år så vil du bli refundert fullt beløp.</h4>
-        <div><img src="../assets/vipps1.jpg" id="vipps1"></div>
       </div>
       <img src="../assets/spacer.png" id="spacer">
+      <h3 class="beige bold">Om folkefinansiering</h3>
+      <img src="../assets/spacer.png" id="spacer">
+      <img src="../assets/racket.png" id="racket">
+      <h3 class="beige bold">Slik fungerar kampanjen</h3>
   </div>
 </template>
 
@@ -69,12 +74,21 @@ export default {
   width: 300px;
   margin: auto;
   padding: 30px;
+  padding-top: 0px;
 }
 
 #vipps1 {
   width: 300px;
   margin: auto;
-  margin-bottom: 30px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+#vipps2 {
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 0px;
   border-radius: 10px;
 }
@@ -107,6 +121,18 @@ export default {
 
 .btn-lg {
   height: 80px;
+}
+
+.borderbox {
+  padding: 10px;
+  border-color: #017272;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 150px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
