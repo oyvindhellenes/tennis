@@ -23,6 +23,10 @@ export default new Router({
       path: '/info',
       name: 'Info',
       component: Info
+    },
+    {
+      path: '*',
+      redirect: '/heim'
     }
   ]
 })

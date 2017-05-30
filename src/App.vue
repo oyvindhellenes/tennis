@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="yellow-bg">
-    <img src="./assets/header.png" id="header-img">
+    <img src="./assets/header2.png" id="header-img">
     <nav class=container id="navigation">
       <ul class="nav nav-tabs">
         <li class="nav-item" v-on:click="setActive">
