@@ -83,6 +83,18 @@ nav {
   padding-left: 0px;
 }
 
+.full-width {
+  width: 80%;
+}
+
+.frame {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #fef1cf;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
 .home {
   border-width: 13px;
   border-style: solid;

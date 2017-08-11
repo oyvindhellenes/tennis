@@ -1,12 +1,13 @@
 <template>
   <div>
       <h1 class="beige bold" id="title">Bli med og støtt Noregs første folkefinansierte tennisbane i Førde!</h1>
-      <img src="../assets/banner-yellow.png" id="banner">
-      <h4 class="beige p">Vi i Førde Tennisklubb har jobba i over seks år for å kunne bygge ei flunkande ny tennisbane i Førde.
+      <img src="../assets/lokasjon.jpg" class="full-width frame">
+      <h4 class="beige p">Vi i Førde Tennisklubb har jobba lenge for å kunne bygge ei flunkande ny tennisbane i Førde.
         No treng vi berre 100 000 kroner for å sette i gong med bygginga.
         Så bli med og støtt Noregs første folkefinansierte tennisbane!</h4>
+
       <img src="../assets/tennisball.png" id="tennisball">
-      <h4 class="beige p bold">Så langt har vi samla inn<span class="bold-underscore"> 31200kr</span> på berre 5 dagar:</h4>
+      <h4 class="beige p bold">Så langt har vi samla inn<span class="bold-underscore"> 31200kr</span>, men vi treng framleis 68800kr. Kampanjen sluttar om <span class="bold-underscore">19 dagar!</span></h4>
       <div class="progress beige-bg">
         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
           <p class="lead bold black">
@@ -14,8 +15,29 @@
           </p>
         </div>
       </div>
-      <h4 class="beige p">Kampanjen sluttar om <span class="bold-underscore">29 dagar!</span></h4>
-      <img src="../assets/spacer.png" id="spacer">
+      <h2 class="beige bold">Slik fungerar kampanjen</h2>
+      <h4 class="beige p">
+        Pengane frå kampanjen går utelukkande til ei ny tennisbane. Ingenting av det som blir henta inn skal brukast til drift eller liknande.
+        Dersom noko skulle skjære seg eller prosjektet ikkje er påbegynt innan to år så vil du bli refundert fullt beløp.
+        Difor er det viktig at du merkar investeringa di med navn og epost slik at vi enkelt kan ta kontakt dersom det blir nødvendig.
+      </h4>
+      <br>
+      <h4 class="beige p">
+        Vi tar gjerne i mot stønad både frå privatpersonar og bedrifter. Alle som støttar oss med 200kr eller meir vil automatisk
+        få gratis medlemskap i eit år. Merk overføringa med “nei takk”, dersom du ikkje ønskjer å bli registrert som medlem i klubben.
+      </h4>
+      <br>
+      <h4 class="beige p">
+        Spesielt generøse gåver vil bli foreviga med ingravering i skilt på bana. Alle som gjer 500kr eller meir vil bli
+        lista opp som bidragsyter på eit skilt ved sia av bana. Gjer du 5000kr eller meir får du navnet eller bedrifta
+        gravert på eit eige 40x30cm skilt.
+      </h4>
+      <br>
+      <h4 class="beige p">
+        Så kva ventar du på? Bli med å starte ein ny breddeidrett i Førde!
+      </h4>
+      <img src="../assets/racket.png" id="racket">
+      <br>
       <div class="small-container beige-bg">
         <img src="../assets/vipps_logo.png" id="vipps1">
         <h2 class="bold blue">
@@ -28,13 +50,12 @@
         <h2 class="blue bold borderbox">17722</h2>
         <div><img src="../assets/vipps1.jpg" id="vipps2"></div>
         <h4 class="blue p-center padding-top-bottom">(Kontonummer: <span class="bold-underscore"> 15037510944</span>)</h4>
-        <h4 class="blue p">PS: Hugs å merk donasjonen med navn slik at vi enkelt kan ta kontakt dersom det blir nødvendig. Dersom prosjektet skulle skjære seg eller prosjektet ikkje er påbegynt innan to år så vil du bli refundert fullt beløp.</h4>
+        <h4 class="blue p">PS: Hugs å merk investeringa med navn og epost.</h4>
       </div>
-      <img src="../assets/spacer.png" id="spacer">
-      <h3 class="beige bold">Om folkefinansiering</h3>
-      <img src="../assets/spacer.png" id="spacer">
-      <img src="../assets/racket.png" id="racket">
-      <h3 class="beige bold">Slik fungerar kampanjen</h3>
+      <br>
+      <h4 class="beige p">
+        Har du spørsmål om kampanjen eller noko anna? Ta gjerne kontakt på post@fordetennis.no eller 94055843.
+      </h4>
   </div>
 </template>
 
@@ -54,15 +75,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-#banner {
-  width: 100%;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #fef1cf;
-  border-radius: 10px;
-  margin-bottom: 30px;
-}
 
 #tennisball {
   width: 200px;
