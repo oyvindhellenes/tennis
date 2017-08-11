@@ -57,6 +57,10 @@ export default {
   }
 }
 
+a {
+  color: #ebc733;
+}
+
 body {
   margin: 0;
 }
@@ -84,7 +88,7 @@ nav {
 }
 
 .full-width {
-  width: 80%;
+  width: 90%;
 }
 
 .frame {
@@ -215,16 +219,23 @@ nav {
   color: black;
 }
 
+#title {
+  position: relative;
+  padding: 30px;
+  text-shadow: 2px 2px 0px black;
+  font-size: 40px;
+}
+
 #spacer {
   height: 15px;
   margin-top: 50px;
   margin-bottom: 50px;
-  width: 100%;
+  width: 90%;
 }
 
 #header-img {
   width: 100%;
   height: 300px;
-  box-shadow: 0px 15px 60px 0px black;
+
 }
 </style>

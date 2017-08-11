@@ -1,13 +1,16 @@
 <template>
   <div>
-      <h1 class="beige bold" id="title">Bli med og støtt Noregs første folkefinansierte tennisbane i Førde!</h1>
+      <br>
+      <h1 class="beige bold" id="title">Bli med å bygg tennisbane i Førde!</h1>
       <img src="../assets/lokasjon.jpg" class="full-width frame">
-      <h4 class="beige p">Vi i Førde Tennisklubb har jobba lenge for å kunne bygge ei flunkande ny tennisbane i Førde.
-        No treng vi berre 100 000 kroner for å sette i gong med bygginga.
-        Så bli med og støtt Noregs første folkefinansierte tennisbane!</h4>
+      <br>
+      <h4 class="beige p">Vi i Førde Tennisklubb har jobba lenge med å planlegge eit flunkande nytt tennisanlegg i Førde. I fjor starta vi med å søke om midlar, men vi fekk dessverre avslag.
+      Det var eit hardt slag i trynet, men vi gir sjølvsagt ikkje opp og difor lanserar vi no ein kampanje der vi skal prøve å folkefinansiere to nye baner i Førde.
+      Berre tenk over den store sosiale nytten som kjem med å investere i heimbyen din kontra eit nytt bad eller hagemøblar!
+      For å komme i gang med bygginga er det estimert at vi treng omlag 100 000kr og dette målet håpar vi at DU kan hjelpe oss med å nå. Så bli med og invester i heimbygda di!
 
-      <img src="../assets/tennisball.png" id="tennisball">
-      <h4 class="beige p bold">Så langt har vi samla inn<span class="bold-underscore"> 31200kr</span>, men vi treng framleis 68800kr. Kampanjen sluttar om <span class="bold-underscore">19 dagar!</span></h4>
+      </h4>
+      <br>
       <div class="progress beige-bg">
         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
           <p class="lead bold black">
@@ -15,7 +18,12 @@
           </p>
         </div>
       </div>
+      <br>
+      <h4 class="beige p bold">Så langt har vi samla inn<span class="bold-underscore"> 31 200kr</span>, men vi treng framleis 68 800kr. Kampanjen sluttar om <span class="bold-underscore">19 dagar!</span></h4>
+      <br>
+      <img src="../assets/racket.png" id="racket">
       <h2 class="beige bold">Slik fungerar kampanjen</h2>
+      <br>
       <h4 class="beige p">
         Pengane frå kampanjen går utelukkande til ei ny tennisbane. Ingenting av det som blir henta inn skal brukast til drift eller liknande.
         Dersom noko skulle skjære seg eller prosjektet ikkje er påbegynt innan to år så vil du bli refundert fullt beløp.
@@ -36,25 +44,24 @@
       <h4 class="beige p">
         Så kva ventar du på? Bli med å starte ein ny breddeidrett i Førde!
       </h4>
-      <img src="../assets/racket.png" id="racket">
       <br>
       <div class="small-container beige-bg">
         <img src="../assets/vipps_logo.png" id="vipps1">
         <h2 class="bold blue">
           Støtt oss med vipps eller nettbank
         </h2>
-        <h4 class="blue p padding-top-bottom">
-          Vil du være med å folkefinansiere Tennisbane i Førde så kan du sende ønskeleg beløp på Vipps eller Nettbank.
-        </h4>
-        <h4 class="blue bold">Vipps nummer:</h4>
+        <br>
+        <h4 class="blue p-center">Vipps nummer:</h4>
         <h2 class="blue bold borderbox">17722</h2>
         <div><img src="../assets/vipps1.jpg" id="vipps2"></div>
-        <h4 class="blue p-center padding-top-bottom">(Kontonummer: <span class="bold-underscore"> 15037510944</span>)</h4>
-        <h4 class="blue p">PS: Hugs å merk investeringa med navn og epost.</h4>
+        <h4 class="blue p-center">Kontonummer:</h4>
+        <h2 class="blue bold borderbox">15037 51 0944</h2>
+        <h4 class="blue p-center">PS: Hugs å merk investeringa med navn og epost.</h4>
       </div>
       <br>
+      <img src="../assets/tennisball.png" id="tennisball">
       <h4 class="beige p">
-        Har du spørsmål om kampanjen eller noko anna? Ta gjerne kontakt på post@fordetennis.no eller 94055843.
+        Har du spørsmål om kampanjen eller noko anna? Ta gjerne kontakt på <a href="bardasnes@outlook.com">bardasnes@outlook.com</a> eller 918 81 992.
       </h4>
   </div>
 </template>
@@ -105,17 +112,11 @@ export default {
   border-radius: 10px;
 }
 
-#title {
-  position: relative;
-  padding: 20px;
-  text-shadow: 2px 2px 0px black;
-  font-size: 50px;
-
-}
-
 .small-container {
   padding: 20px;
   border-radius: 10px;
+  width: 90%;
+  margin: auto;
 }
 
 .progress-bar-animated {
@@ -123,8 +124,8 @@ export default {
   height: 40px;
 }
 .progress {
-  margin-top: 50px;
-  margin-bottom: 30px;
+  width: 90%;
+  margin: auto;
 }
 
 .progress p {
@@ -141,7 +142,7 @@ export default {
   border-width: 4px;
   border-style: solid;
   border-radius: 5px;
-  width: 150px;
+  width: 350px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;

@@ -1,20 +1,25 @@
 <template>
   <div>
-    <h1 class="beige bold" id="title">Om oss</h1>
-    <div><img src="../assets/team.jpg" class="full-width frame"></div>
     <br>
-    <img src="../assets/spacer.png" id="spacer">
+    <h1 class="beige bold" id="title">Kven er vi?</h1>
+    <br>
+    <div><img src="../assets/team.jpg" class="full-width frame"></div>
     <h3 class="beige bold">Bård Nygård Åsnes / Leiar</h3>
+    <br>
     <div><img src="../assets/baard.jpg" class="profil frame"></div>
     <img src="../assets/spacer.png" id="spacer">
     <h3 class="beige bold">Anders Thommessen / Nest leiar</h3>
+    <br>
     <div><img src="../assets/anders.jpg" class="profil frame"></div>
     <img src="../assets/spacer.png" id="spacer">
     <h3 class="beige bold">Martin Savland / Økonomiansvarleg</h3>
+    <br>
     <div><img src="../assets/martin.jpg" class="profil frame"></div>
     <img src="../assets/spacer.png" id="spacer">
     <h3 class="beige bold">Øyvind Hellenes / Medhjelpar</h3>
+    <br>
     <div><img src="../assets/oyvind.jpg" class="profil frame"></div>
+    <br>
     <h4 class="beige p">
       Er utdanna programmerer og forretningsutvikler. Jobbar til dagleg med Protolab Vest i Førde.
       Har vore lidenskapleg oppteken av tennis heilt sidan han såg Roger Federer vinne Wimbledon i 2009.
@@ -22,9 +27,13 @@
       Hobbitun på Halbrendstølen og ein statue av Einar Førde med hest og kappe i rundkøyringa på Øyrane.
     </h4>
     <img src="../assets/spacer.png" id="spacer">
-    <h3 class="beige bold">Kontakt</h3>
+    <h2 class="beige bold">Kontaktinfo</h2>
+    <br>
     <h4 class="beige p">
-      EKontaktinfo: post@fordetennis.no eller 94055843.
+      Epost: <a href="bardasnes@outlook.com"><span class="bold-underscore"> bardasnes@outlook.com</span></a>
+    </h4>
+    <h4 class="beige p">
+      Telefon: <span class="bold-underscore"> 918 81 992</span>
     </h4>
   </div>
 </template>
