@@ -1,28 +1,27 @@
 <template>
   <div>
       <br>
-      <h1 class="beige bold" id="title">Bli med å bygg tennisbane i Førde!</h1>
+      <h1 class="beige bold" id="title">Bli med å bygge tennisbane i Førde!</h1>
       <img src="../assets/lokasjon.jpg" class="full-width frame">
       <br>
       <h4 class="beige p">Vi i Førde Tennisklubb har jobba lenge med å planlegge eit flunkande nytt tennisanlegg i Førde. I fjor starta vi med å søke om midlar, men vi fekk dessverre avslag.
-      Det var eit hardt slag i trynet, men vi gir sjølvsagt ikkje opp og difor lanserar vi no ein kampanje der vi skal prøve å folkefinansiere to nye baner i Førde.
+      Det var eit hardt slag i trynet, men vi gir sjølvsagt ikkje opp og difor lanserer vi no ein kampanje der vi skal prøve å folkefinansiere to nye baner i Førde.
       Berre tenk over den store sosiale nytten som kjem med å investere i heimbyen din kontra eit nytt bad eller hagemøblar!
-      For å komme i gang med bygginga er det estimert at vi treng omlag 100 000kr og dette målet håpar vi at DU kan hjelpe oss med å nå. Så bli med og invester i heimbygda di!
-
+      For å komme i gang med bygginga er det estimert at vi treng om lag 100 000kr og dette målet håpar vi at DU kan hjelpe oss med å nå. Så bli med og invester i heimbygda di!
       </h4>
       <br>
       <div class="progress beige-bg">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 11%">
           <p class="lead bold black">
-            31 200kr
+            9200kr
           </p>
         </div>
       </div>
       <br>
-      <h4 class="beige p bold">Så langt har vi samla inn<span class="bold-underscore"> 31 200kr</span>, men vi treng framleis 68 800kr. Kampanjen sluttar om <span class="bold-underscore">19 dagar!</span></h4>
+      <h4 class="beige p bold">Så langt har vi samla inn<span class="bold-underscore"> 9200kr</span>, men vi treng framleis 91 800kr. Kampanjen sluttar om <span class="bold-underscore">14 dagar!</span></h4>
       <br>
       <img src="../assets/racket.png" id="racket">
-      <h2 class="beige bold">Slik fungerar kampanjen</h2>
+      <h2 class="beige bold">Slik fungerer kampanjen</h2>
       <br>
       <h4 class="beige p">
         Pengane frå kampanjen går utelukkande til ei ny tennisbane. Ingenting av det som blir henta inn skal brukast til drift eller liknande.
@@ -31,13 +30,13 @@
       </h4>
       <br>
       <h4 class="beige p">
-        Vi tar gjerne i mot stønad både frå privatpersonar og bedrifter. Alle som støttar oss med 200kr eller meir vil automatisk
+        Vi tar gjerne imot stønad både frå privatpersonar og bedrifter. Alle som støttar oss med 200kr eller meir vil automatisk
         få gratis medlemskap i eit år. Merk overføringa med “nei takk”, dersom du ikkje ønskjer å bli registrert som medlem i klubben.
       </h4>
       <br>
       <h4 class="beige p">
-        Spesielt generøse gåver vil bli foreviga med ingravering i skilt på bana. Alle som gjer 500kr eller meir vil bli
-        lista opp som bidragsyter på eit skilt ved sia av bana. Gjer du 5000kr eller meir får du navnet eller bedrifta
+        Spesielt generøse gåver vil bli foreviga med ingravering i skilt på bana. Alle som gjev 500kr eller meir vil bli
+        lista opp som bidragsyter på eit skilt ved sia av bana. Gjev du 5000kr eller meir får du navnet eller bedrifta
         gravert på eit eige 40x30cm skilt.
       </h4>
       <br>
