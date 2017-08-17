@@ -11,14 +11,14 @@
       </h4>
       <br>
       <div class="progress beige-bg">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 11%">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
           <p class="lead bold black">
-            9200kr
+            38 500kr
           </p>
         </div>
       </div>
       <br>
-      <h4 class="beige p bold">Så langt har vi samla inn<span class="bold-underscore"> 9200kr</span>, men vi treng framleis 91 800kr. Kampanjen sluttar om <span class="bold-underscore">14 dagar!</span></h4>
+      <h4 class="beige p bold">Så langt har vi samla inn<span class="bold-underscore"> 38 500kr</span>, men vi treng framleis 61 200kr. Kampanjen sluttar om <span class="bold-underscore">12 dagar!</span></h4>
       <br>
       <img src="../assets/racket.png" id="racket">
       <h2 class="beige bold">Slik fungerer kampanjen</h2>
@@ -31,7 +31,7 @@
       <br>
       <h4 class="beige p">
         Vi tar gjerne imot stønad både frå privatpersonar og bedrifter. Alle som støttar oss med 200kr eller meir vil automatisk
-        få gratis medlemskap i eit år. Merk overføringa med “nei takk”, dersom du ikkje ønskjer å bli registrert som medlem i klubben.
+        få gratis medlemskap i eit år. Merk overføringa med “nei takk”, dersom du ikkje ønskjer å bli registrert som medlem i klubben. Dersom du ønskjer å bli medlem utan å gje pengar kan du melde deg inn her: <a href="fordetennis.no">fordetennis.no</a>
       </h4>
       <br>
       <h4 class="beige p">
